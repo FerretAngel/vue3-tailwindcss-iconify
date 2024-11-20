@@ -10,8 +10,9 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  build:{
-    outDir:'docs'
+  base: './',
+  build: {
+    outDir: 'docs',
   },
   resolve: {
     alias: {
